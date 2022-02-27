@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3FFFE">
+
+    <TextView
+        android:id="@+id/localorder_orderid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Order ID"
+        android:textColor="#673AB7" />
+
+    <TextView
+        android:id="@+id/localorder_staffid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Staff ID"
+        android:textColor="#673AB7" />
+
+    <TextView
+        android:id="@+id/localorder_branchid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Branch ID"
+        android:textColor="#673AB7" />
+
+    <Button
+        android:id="@+id/localorder_delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#818CD6"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/delete" />
+</LinearLayout>

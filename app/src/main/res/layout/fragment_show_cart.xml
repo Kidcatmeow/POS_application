@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cartfrag2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cartlayoutfrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F9FADF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cart_productnameText"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:gravity="center_horizontal|center_vertical"
+            android:iconifiedByDefault="false"
+            android:text="@string/Fragmentshowcart_productname" />
+
+        <TextView
+            android:id="@+id/cart_productpriceText"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:gravity="center_horizontal|center_vertical"
+            android:iconifiedByDefault="false"
+            android:text="@string/Fragmentshowcart_price" />
+
+        <TextView
+            android:id="@+id/cart_productquantityText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/Fragmentshowcart_quantity" />
+    </LinearLayout>
+</LinearLayout>

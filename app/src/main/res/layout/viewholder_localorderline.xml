@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3FFFE">
+
+    <TextView
+        android:id="@+id/localorderline_orderlineid_text"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center_horizontal"
+        android:text="Orderline ID"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/localorderline_productid_text"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center_horizontal"
+        android:text="Product ID"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/localorderline_prodctprice_text"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center_horizontal"
+        android:text="Product Price"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/localorderline_productquantity_text"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center_horizontal"
+        android:text="Produce Quantity"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/orderline_editbtn"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10px"
+        android:layout_weight="0"
+        android:backgroundTint="#818CD6"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/edit"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/orderline_deletebtn"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10px"
+        android:layout_weight="0"
+        android:backgroundTint="#818CD6"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/delete"
+        android:textSize="8sp" />
+</LinearLayout>

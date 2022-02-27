@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Main activity
+    <string name="MainActivity_title">โปรแกรมระบบการขายสินค้า</string>
+    <string name="MainActivity_username">ชื่อผู้ใช้</string>
+    <string name="MainActivity_password">รหัสผ่าน</string>
+    <string name="MainActivity_rememberme">จดจำข้อมูล</string>
+    <string name="MainActivity_login">ล็อคอิน</string>
+
+    //Command Center Activity
+    <string name="CommandCenterActivity_title">ศูนย์สั่งการ</string>
+    <string name="CommandCenterActivity_neworder">สร้างออเดอร์</string>
+    <string name="CommandCenterActivity_addproduct">เพิ่มสินค้า</string>
+    <string name="CommandCenterActivity_playmusic">เปิดเพลง</string>
+    <string name="CommandCenterActivity_stopmusic">ปิดเพลง</string>
+
+    //Setting Activity
+    <string name="SettingActivity_title">การตั้งค่า</string>
+    <string name="SettingActivity_ordermanager">จัดการออเดอร์</string>
+    <string name="SettingActivity_setupbranch">ตั้งสาขา</string>
+    <string name="SettingActivity_updatebranch">อัพเดทสาขา</string>
+    <string name="SettingActivity_uisetting">เปลี่ยนแปลง UI</string>
+    <string name="SettingActivity_uploaddailyreport">อัพโหลดรายงานประจำวัน</string>
+    <string name="SettingActivity_searchcontact">รายชื่อผู้ติดต่อ</string>
+    <string name="SettingActivity_submitorder">ส่งออเดอร์เข้าเซิฟเวอร์</string>
+    <string name="SettingActivity_retrieveorder">รับออเดอร์จากเซิฟเวอร์</string>
+    <string name="SettingActivity_uploadimage">อัพโหลดรูปเข้าเซิฟเวอร์</string>
+
+    //Category Activity
+    <string name="CategoryActivity_title">หมวดหมู่เมนู</string>
+    <string name="CategoryActivity_drink">เครื่องดื่ม</string>
+    <string name="CategoryActivity_pasta">พาสต้า</string>
+    <string name="CategoryActivity_pizza">พิซซ่า</string>
+    <string name="CategoryActivity_fruit">ผลไม้</string>
+    <string name="CategoryActivity_macaron">มาการอง</string>
+    <string name="CategoryActivity_icecream">ไอศกรีม</string>
+
+
+    //Edit Orderline Activity
+    <string name="EditOrderlineActivity_title">เปลี่ยนข้อมูลออเดอร์</string>
+    <string name="EditOrderlineActivity_quantity">จำนวน</string>
+    <string name="EditOrderlineActivity_price">ราคา</string>
+    <string name="EditOrderlineActivity_confirm">ยืนยัน</string>
+
+
+    //Order Activity
+    <string name="OrderActivity_branchid">หมายเลขสาขา</string>
+    <string name="OrderActivity_staffid">หมายเลขพนักงาน</string>
+    <string name="OrderActivity_totalamount">ราคารวม</string>
+    <string name="OrderActivity_submitorder">ส่งออเดอร์</string>
+    <string name="OrderActivity_retrieveorder">รับออเดอร์</string>
+
+
+    //Order Fragment
+    <string name="FragmentOrder_orderid">เลขออเดอร์</string>
+    <string name="FragmentOrder_staffid">เลขพนักงาน</string>
+    <string name="FragmentOrder_branchid">เลขสาขา</string>
+<!--    <string name="FragmentOrder_orderid">Order ID</string>-->
+<!--    <string name="FragmentOrder_staffid">Staff ID</string>-->
+<!--    <string name="FragmentOrder_branchid">Branch ID</string>-->
+
+    //Orderline Fragment
+    <string name="FragmentOrderline_orderlineid">เลขออเดอร์ไลน์</string>
+    <string name="FragmentOrderline_productid">หมายเลขสินค้า</string>
+    <string name="FragmentOrderline_productprice">ราคาสินค้า</string>
+    <string name="FragmentOrderline_productquantity">จำนวนสินค้า</string>
+
+    //Show cart Fragment
+    <string name="Fragmentshowcart_productname">ชื่อสินค้า</string>
+    <string name="Fragmentshowcart_price">ราคา</string>
+    <string name="Fragmentshowcart_quantity">จำนวน</string>
+
+    //Search contact
+    <string name="ListviewSearchContact_name">ชื่อ</string>
+    <string name="ListviewSearchContact_number">เบอร์โทร</string>
+    <string name="queryhint">พิมพ์ชื่อที่คุณต้องการค้นหาตรงนี้</string>
+
+
+    //Common button
+    <string name="delete">ลบ</string>
+    <string name="edit">แก้ไข</string>
+
+
+    //Take picture
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="maybe">อาจจะ</string>
+    <string name="failed">ไม่สำเร็จ</string>
+    <string name="uploadornot">ต้องการอัพโหลดรูปภาพหรือไม่?</string>
+    <string name="phototaken">ถ่ายภาพเสร็จแล้ว</string>
+
+
+    <string name="app_name">PoS2</string>
+    <string name="style">themes</string>
+
+    <string name="preference_file_key">com.stamford.pos2.secret_pref</string>
+    <string name="credential_stored_key">credential_stored_key</string>
+    <string name="username_key">username_key</string>
+    <string name="password_key">password_key</string>
+    <string name="keyBytes_key">pass_key</string>
+    <string name="salt_key">salt_key</string>
+    <string name="iv_key">iv_key</string>
+    <string name="total_amount_str">%d</string> //for order activity totalamount textview
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_str">เล่น</string>
+    <string name="stop_str">หยุด</string>
+    <string name="music_title">การเล่นเพลงของแอพ POS Stamford</string>
+    <string name="music_status">%d</string>
+</resources>

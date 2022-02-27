@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingconstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEAEA"
+    tools:context=".SettingActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="1286dp"
+        android:layout_height="740dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="66dp">
+
+        <LinearLayout
+            android:id="@+id/settingleftlayout"
+            android:layout_width="660dp"
+            android:layout_height="624dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.758">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="391dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_setupbranch" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="394dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_updatebranch" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="397dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_uisetting" />
+
+            <Button
+                android:id="@+id/SubmitLocalOrdersBtn"
+                android:layout_width="397dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_submitorder" />
+
+            <Button
+                android:id="@+id/RetrieveLocalOrdersBtn"
+                android:layout_width="400dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_retrieveorder" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settingrightlayout"
+            android:layout_width="621dp"
+            android:layout_height="622dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.745">
+
+            <Button
+                android:id="@+id/DailyReportBtn"
+                android:layout_width="411dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_uploaddailyreport" />
+
+            <Button
+                android:id="@+id/SearchContactBtn"
+                android:layout_width="414dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_searchcontact" />
+
+            <Button
+                android:id="@+id/OrderManagerBtn"
+                android:layout_width="404dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_ordermanager" />
+
+            <Button
+                android:id="@+id/UploadImageBtn"
+                android:layout_width="402dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F19D9D"
+                android:gravity="center"
+                android:shadowColor="#A64B4B"
+                android:shadowDx="0.5"
+                android:shadowDy="0.5"
+                android:shadowRadius="1"
+                android:text="@string/SettingActivity_uploadimage" />
+
+            <LinearLayout
+                android:id="@+id/imagelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="1.3"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.1"
+            android:text="@string/SettingActivity_title"
+            android:textAlignment="center"
+            android:textColor="#8C4EF2"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

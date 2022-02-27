@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCEB">
+
+    <TextView
+        android:id="@+id/CommandCenter"
+        android:layout_width="490dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/aldrich"
+        android:shadowColor="#B5F5A2F8"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.3"
+        android:text="@string/CommandCenterActivity_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#8C4EF2"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="453dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834">
+
+        <Button
+            android:id="@+id/neworderBtn"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#37313E"
+            android:gravity="center"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:text="@string/CommandCenterActivity_neworder" />
+
+        <Button
+            android:id="@+id/addproductBtn"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#4F547C"
+            android:gravity="center"
+            android:shadowColor="#9A6464"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:text="@string/CommandCenterActivity_addproduct" />
+
+        <Button
+            android:id="@+id/playmusicBtn"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#7F6A98"
+            android:gravity="center"
+            android:onClick="onclick_play_music_in_bg_btn"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:text="@string/CommandCenterActivity_playmusic" />
+
+        <Button
+            android:id="@+id/stopmusicBtn"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#A795BD"
+            android:gravity="center"
+            android:onClick="onclick_stop_music_in_bg_btn"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:text="@string/CommandCenterActivity_stopmusic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
